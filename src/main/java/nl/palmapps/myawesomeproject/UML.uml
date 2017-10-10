@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="335.7045172306736" y="301.98789195901895">nl.palmapps.myawesomeproject.security.config.WebSecurityConfig</node>
+    <node x="795.8874999999999" y="79.0">nl.palmapps.myawesomeproject.security.JwtAuthenticationEntryPoint</node>
+    <node x="127.0" y="0.0">nl.palmapps.myawesomeproject.security.model.AuthenticatedUser</node>
+    <node x="293.0" y="0.0">nl.palmapps.myawesomeproject.security.exception.JwtTokenMalformedException</node>
+    <node x="171.9708333333333" y="79.0">nl.palmapps.myawesomeproject.security.JwtAuthenticationProvider</node>
+    <node x="521.0" y="0.0">nl.palmapps.myawesomeproject.security.model.JwtAuthenticationToken</node>
+    <node x="718.0" y="0.0">nl.palmapps.myawesomeproject.security.exception.JwtTokenMissingException</node>
+    <node x="400.49383343682075" y="79.0">nl.palmapps.myawesomeproject.security.JwtAuthenticationTokenFilter</node>
+    <node x="1014.8874999999999" y="79.0">nl.palmapps.myawesomeproject.security.JwtAuthenticationSuccessHandler</node>
+    <node x="0.0" y="0.0">nl.palmapps.myawesomeproject.security.transfer.JwtUserDto</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="nl.palmapps.myawesomeproject.security.config.WebSecurityConfig" target="nl.palmapps.myawesomeproject.security.JwtAuthenticationProvider">
+      <point x="-60.0" y="-14.5" />
+      <point x="659.25" y="138.0" />
+      <point x="265.9708333333333" y="138.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.palmapps.myawesomeproject.security.config.WebSecurityConfig" target="nl.palmapps.myawesomeproject.security.JwtAuthenticationEntryPoint">
+      <point x="30.0" y="-14.5" />
+      <point x="749.25" y="128.0" />
+      <point x="895.3874999999999" y="128.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.palmapps.myawesomeproject.security.JwtAuthenticationProvider" target="nl.palmapps.myawesomeproject.security.model.JwtAuthenticationToken">
+      <point x="70.5" y="-14.5" />
+      <point x="336.4708333333333" y="59.0" />
+      <point x="550.5" y="59.0" />
+      <point x="-59.0" y="14.5" />
+    </edge>
+    <edge source="nl.palmapps.myawesomeproject.security.JwtAuthenticationProvider" target="nl.palmapps.myawesomeproject.security.model.AuthenticatedUser">
+      <point x="-23.5" y="-14.5" />
+      <point x="242.4708333333333" y="49.0" />
+      <point x="200.0" y="49.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.palmapps.myawesomeproject.security.JwtAuthenticationProvider" target="nl.palmapps.myawesomeproject.security.exception.JwtTokenMalformedException">
+      <point x="23.5" y="-14.5" />
+      <point x="289.4708333333333" y="49.0" />
+      <point x="397.0" y="49.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.palmapps.myawesomeproject.security.JwtAuthenticationProvider" target="nl.palmapps.myawesomeproject.security.transfer.JwtUserDto">
+      <point x="-70.5" y="-14.5" />
+      <point x="195.4708333333333" y="59.0" />
+      <point x="53.5" y="59.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.palmapps.myawesomeproject.security.config.WebSecurityConfig" target="nl.palmapps.myawesomeproject.security.JwtAuthenticationSuccessHandler">
+      <point x="60.0" y="-14.5" />
+      <point x="779.25" y="138.0" />
+      <point x="1128.3874999999998" y="138.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.palmapps.myawesomeproject.security.JwtAuthenticationTokenFilter" target="nl.palmapps.myawesomeproject.security.exception.JwtTokenMissingException">
+      <point x="67.66666666666669" y="-14.5" />
+      <point x="742.0541666666667" y="59.0" />
+      <point x="813.0" y="59.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.palmapps.myawesomeproject.security.config.WebSecurityConfig" target="nl.palmapps.myawesomeproject.security.JwtAuthenticationTokenFilter">
+      <point x="0.0" y="-14.5" />
+      <point x="719.25" y="138.0" />
+      <point x="725.1374999999999" y="138.0" />
+      <point x="50.75" y="14.5" />
+    </edge>
+    <edge source="nl.palmapps.myawesomeproject.security.JwtAuthenticationTokenFilter" target="nl.palmapps.myawesomeproject.security.model.JwtAuthenticationToken">
+      <point x="-67.66666666666669" y="-14.5" />
+      <point x="606.7208333333333" y="59.0" />
+      <point x="609.5" y="59.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.020919175911252" x="665.3717789506364" y="121.33455041061367" />
+  <SelectedNodes>
+    <node>nl.palmapps.myawesomeproject.security.JwtAuthenticationTokenFilter</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
